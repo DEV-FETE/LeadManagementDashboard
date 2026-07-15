@@ -16,6 +16,8 @@ A clean, responsive Kanban-style Lead Management Dashboard built using **.NET 10
    git clone [https://github.com/DEV-FETE/LeadManagementDashboard.git](https://github.com/DEV-FETE/LeadManagementDashboard.git)
    cd lead-management-dashboard
 
+**Demo Video Link**
+   https://drive.google.com/file/d/1lQlAEUPeUTL9zkMh_pKb9LDWUoJg33ZW/view?usp=sharing
 __________________________________________________________________________________
 2. **Database**
 
