@@ -31,6 +31,39 @@ dotnet run
 **Note**: On application execution, DbInitializer.Seed automatically checks and seeds default statuses, sample leads, and activity history.
 
 __________________________________________________________________________________
+3. **Folder Structure**
+
+LeadManagementDashboard/
+│
+├── Data/
+│   ├── ApplicationDbContext.cs
+│   └── DbInitializer.cs
+│
+├── Entities/
+│   ├── Status.cs
+│   ├── Lead.cs
+│   └── LeadActivity.cs
+│
+├── ViewModels/
+│   ├── StatusViewModel.cs
+│   ├── LeadViewModel.cs
+│   └── LeadActivityViewModel.cs
+│
+├── Services/
+│   ├── ILeadService.cs
+│   └── LeadService.cs
+│
+├── Pages/
+│   ├── Index.cshtml
+│   ├── Index.cshtml.cs
+│   ├── Shared/
+│   │   └── _Layout.cshtml
+│   └── _ViewImports.cshtml
+│
+├── Program.cs
+└── appsettings.json
+
+__________________________________________________________________________________
 
 Thank You!
 
